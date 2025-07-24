@@ -21,7 +21,7 @@ export default function Contact() {
           <div className="w-[100%] space-y-[20px]">
             <span className="flex items-center gap-x-[10px] text-[20px]">
               <CgMail className="text-[#E87532] text-[30px]" />{" "}
-              Adeniyiyomiwa4@gmail.com
+              Adeniyitomiwa4@gmail.com
             </span>
             <span className="flex items-center gap-x-[10px] text-[20px]">
               <BsTelephone className="text-[#E87532] text-[30px]" /> +234 704

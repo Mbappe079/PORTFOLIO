@@ -12,7 +12,9 @@ export default function MobileNav() {
     <>
       <div className="fixed w-[100%]  min-md:hidden">
         <div className="flex justify-between items-center py-[30px] px-[20px]">
-          <h1>MBAPPE</h1>
+          <div className="w-[100px] h-[100px] rounded-full overflow-hidden">
+            <img src="/images/logo.png" alt="" />
+          </div>
 
           <div onClick={changeToggle}>
             {!toggleNav ? (
@@ -24,7 +26,7 @@ export default function MobileNav() {
         </div>
 
         {toggleNav ? (
-          <div className="h-screen fixed  w-[100%] mx-auto flex flex-col items-center justify-center gap-y-[50px] bg-[#2B7FFF]  text-[30px]">
+          <div className="h-screen fixed  w-[100%] mx-auto flex flex-col items-center justify-center gap-y-[50px] bg-[#a19673]  text-[30px]">
             <a href="#hero">
               <span className="cursor-pointer" onClick={changeToggle}>
                 Home
