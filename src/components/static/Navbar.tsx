@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className="w-[100%] mx-auto flex justify-between items-center p-[20px] mt-[20px] fixed text-[#131112] font-bold px-[200px] max-md:hidden">
         <div className="w-[100px] h-[100px] rounded-full overflow-hidden">
           {" "}
-          <img src="/images/logo.png" alt="" />{" "}
+          <img src="/images/m.png" alt="" />{" "}
         </div>
         <div className=" w-[35%] flex justify-around items-center">
           <a href="#hero">

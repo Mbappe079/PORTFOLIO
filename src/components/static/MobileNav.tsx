@@ -13,7 +13,7 @@ export default function MobileNav() {
       <div className="fixed w-[100%]  min-md:hidden">
         <div className="flex justify-between items-center py-[30px] px-[20px]">
           <div className="w-[100px] h-[100px] rounded-full overflow-hidden">
-            <img src="/images/logo.png" alt="" />
+            <img src="/images/m.png" alt="" />
           </div>
 
           <div onClick={changeToggle}>
