@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <div
       id="hero"
-      className=" w-[100%] max-md:pt-[50px]  bg-[url('images/mbappe.jpg')] bg-center bg-cover bg-no-repeat pt-[200px] max-md:px-[20px]"
+      className=" w-[100%] max-md:pt-[50px]  bg-[url('/images/mbappe.jpg')] bg-center bg-cover bg-no-repeat pt-[200px] max-md:px-[20px]"
     >
       <div className="w-[70%] h-[100vh] mx-auto flex justify-between items-start max-md:w-[100%] max-md:flex-col-reverse max-md:justify-center max-md:gap-y-[40px]">
         <div className="w-[50%] space-y-[30px] max-md:w-[100%] ">
