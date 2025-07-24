@@ -6,8 +6,11 @@ export default function Navbar() {
   return (
     <>
       <div className="w-[100%] mx-auto flex justify-between items-center p-[20px] mt-[20px] fixed text-[#131112] font-bold px-[200px] max-md:hidden">
-        <div>MBAPPE</div>
-        <div className=" w-[30%] flex justify-around items-center">
+        <div className="w-[100px] h-[100px] rounded-full overflow-hidden">
+          {" "}
+          <img src="/images/logo.png" alt="" />{" "}
+        </div>
+        <div className=" w-[35%] flex justify-around items-center">
           <a href="#hero">
             <span>Home</span>
           </a>

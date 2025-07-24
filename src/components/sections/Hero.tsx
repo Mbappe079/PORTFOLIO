@@ -15,13 +15,18 @@ export default function Hero() {
             and innovative development
           </p>
           <div className=" w-[68%]  flex justify-between items-center   max-md:w-[100%] max-md:flex-col max-md:gap-y-[20px] gap-x-[10px]">
-            <button className="w-[200px]  bg-[#2B7FFF] text-white rounded-full p-[15px] font-bold  cursor-pointer max-md:w-[100%]">
-              View My Work
-            </button>
+            <a href="#project">
+              {" "}
+              <button className="w-[200px]  bg-[#2B7FFF] text-white rounded-full p-[15px] font-bold  cursor-pointer max-md:w-[100%]">
+                View My Work
+              </button>
+            </a>
 
-            <button className="w-[200px]  hover:text-white text-white cursor-pointer max-md:w-[100%] border border-[#2B7FFF] rounded-full p-[15px] font-bold">
-              Let's Connect
-            </button>
+            <a href="#contact">
+              <button className="w-[200px]  hover:text-white text-white cursor-pointer max-md:w-[100%] border border-[#2B7FFF] rounded-full p-[15px] font-bold">
+                Let's Connect
+              </button>
+            </a>
           </div>
         </div>
         {/* <div className="w-[50%] max-md:w-[100%]">
