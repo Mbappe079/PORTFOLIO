@@ -8,14 +8,13 @@ export default function About() {
 
         <p className=" font-[300] text-center w-[70%] mx-auto text-[17px] max-md:w-[100%] text-white">
           Hi, I'm a Full-Stack Web Developer with a passion for crafting clean
-          code, building scalable apps, and occasionally transmitting from the
-          agbado mainframe.
+          code, building scalable apps.
         </p>
       </div>
 
       <div
         id="about"
-        className="w-[70%] mx-auto flex justify-between items-start max-md:flex-col max-md:w-[100%]"
+        className="w-[90%] mx-auto flex justify-between items-start max-md:flex-col max-md:w-[100%]"
       >
         <div className="w-[49%] max-md:hidden">
           <img
@@ -33,16 +32,16 @@ export default function About() {
             <p className="italic text-[20px] max-md:text-[15px] text-white max-md:w-[100%]">
               Whether it's React, Node.js, or launching full-stack projects into
               the cloud, I'm on a mission to recruit innovation and transmit
-              value—one symbol at a time.
+              value one symbol at a time.
             </p>
           </div>
 
           <div className=" flex justify-between items-start p-[20px]  rounded-[20px] border border-gray-100 max-md:flex-col max-md:w-[100%] max-md:mx-auto">
-            <div className="w-[49%]  space-y-[30px]">
+            <div className="w-[39%]  space-y-[30px]">
               <div>
                 <p className="text-gray-400 font-[500] text-[15px]">Name</p>
                 <p className="text-[20px] text-[#2B7FFF] font-bold">
-                  Eliot Johnson
+                  Adeniyi Tomiwa
                 </p>
               </div>
               <div>
@@ -60,7 +59,7 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <div className="w-[49%]  space-y-[30px]">
+            <div className="w-[60%]  space-y-[30px] text-wrap">
               <div>
                 <p className="text-gray-400 font-[500] text-[15px]">
                   Phone Number
@@ -71,8 +70,8 @@ export default function About() {
               </div>
               <div>
                 <p className="text-gray-400 font-[500] text-[15px]">Email</p>
-                <p className="text-[20px] text-[#2B7FFF] font-bold">
-                  Adeniyiyomiwa4@gmail.com
+                <p className="text-[20px] text-[#2B7FFF] font-bold text-wrap">
+                  Adeniyitomiwa4@gmail.com
                 </p>
               </div>
               {/* <div>
